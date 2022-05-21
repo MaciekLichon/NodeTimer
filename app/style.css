@@ -6,6 +6,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding: 30px;
   text-align: center;
+  -webkit-app-region: drag;
 }
 
 h1 {
@@ -29,6 +30,7 @@ p {
   outline: none;
   transition: .2s;
   cursor: pointer;
+  -webkit-app-region: no-drag;
 }
 
 .btn:hover {
@@ -74,4 +76,3 @@ p {
     transform: scale3d(1, 1, 1);
   }
 }
-
